@@ -15,4 +15,7 @@
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="welcome_to_the_dial_up_screen">Welcome to the Dial Up Screen</string>
+    <string name="first_radio_button">First Radio Button</string>
+    <string name="second_radio_button">Second Radio Button</string>
+    <string name="welcome_to_the_second_screen">Dial-Up Screen </string>
 </resources>

@@ -135,10 +135,14 @@ public class MainActivity extends AppCompatActivity {
                   /*Intent dial = new Intent(getApplicationContext(), SecondActivity.class);
                   dial.putExtra("var","Hey, it is a message from the MainActivity ");
                   startActivity(dial);*/
-                  s=1;
+
+                 /* s=1;
                   Intent dial = new Intent(getApplicationContext(), SecondActivity.class);
                   dial.putExtra("var","Hey, it is a message from the MainActivity ");
-                  startActivityForResult(dial, s);
+                  startActivityForResult(dial, s);*/
+
+                 Intent nextPageIntent=new Intent(getApplicationContext(), SecondActivity.class);
+                 startActivity(nextPageIntent);
                   break;
           }
       }
